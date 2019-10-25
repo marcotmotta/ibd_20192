@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.header-container {
+    height: 80px;
+    background-color: lightgreen;
+}
+
+.header-child {
+    height: 100%;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.header-left div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menu {
+    width: 50%;
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+
+.menu div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menu:hover {
+    background-color: gray;
+    cursor: pointer;
+}
