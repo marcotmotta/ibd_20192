@@ -25,11 +25,15 @@ body {
     transform: translateY(-50%);
 }
 
+.header-right {
+    float: right;
+}
+
 .menu {
-    width: 50%;
-    float: left;
+    width: 150px;
+    display: inline-block;
     height: 100%;
-    text-align: center;
+    position: relative;
 }
 
 .menu div {
@@ -39,6 +43,6 @@ body {
 }
 
 .menu:hover {
-    background-color: rgba(255, 255, 255, 0.712);
+    color: rgba(255, 255, 255, 0.712);
     cursor: pointer;
 }
