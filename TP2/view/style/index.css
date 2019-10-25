@@ -31,9 +31,13 @@ body {
 
 .menu {
     float: right;
-    width: 150px;
+    width: 170px;
     height: 100%;
     position: relative;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: black;
+    font-size: 18px;
 }
 
 .menu > div {
