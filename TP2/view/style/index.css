@@ -4,7 +4,11 @@ body {
 
 .header-container {
     height: 80px;
-    background-color: lightgreen;
+    background-color: lightgray;
+}
+
+.logo {
+    max-width: 300px;
 }
 
 .header-child {
