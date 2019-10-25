@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $("#alo-button").on('click', function(){
+    $(".menu-queries").on('click', function(){
         let url = 'https://0.0.0.0:5000.com/query/select%20*%20from%20players%20limit%205';
         /* $.ajax({
             url: url,
@@ -15,6 +15,11 @@ $(document).ready(function() {
                 console.log('error', error);
             }
         }); */
+        $("body").css("background-color", "lightgreen");
+    });
+
+    $(".menu-queries-own").on('click', function(){
+        $("body").css("background-color", "lightblue");
     });
 
 });
