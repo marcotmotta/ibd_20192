@@ -8,6 +8,11 @@ body {
     background-color: lightgray;
 }
 
+.symbol {
+    max-height: 50px;
+    margin-right: 35px;
+}
+
 .logo {
     max-width: 300px;
 }
