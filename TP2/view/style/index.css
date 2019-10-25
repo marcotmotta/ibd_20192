@@ -19,30 +19,47 @@ body {
     text-align: center;
 }
 
-.header-left div {
+.header-left > div {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.header-right {
-    float: right;
+.menu:first-child {
+    margin-right: 15%;
 }
 
 .menu {
+    float: right;
     width: 150px;
-    display: inline-block;
     height: 100%;
     position: relative;
 }
 
-.menu div {
+.menu > div {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 
 .menu:hover {
-    color: rgba(255, 255, 255, 0.712);
+    color: darkslategray;
     cursor: pointer;
+    /* outline: 1px solid black;
+    outline-offset: -1px; */
+}
+
+.menu::before {
+    content: '';
+    display: block;
+    background-color: darkslategray;
+    height: 4px;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 250ms;
+}
+
+.menu:hover::before {
+    width: 100%;
 }
