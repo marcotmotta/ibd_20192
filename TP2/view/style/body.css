@@ -1,0 +1,16 @@
+.queries-container {
+    height: 300px;
+    background-color: blue;
+    display: none;
+}
+
+.myo-container {
+    height: 300px;
+    background-color: red;
+    display: none;
+}
+
+.query-header {
+    height: 80px;
+    border-bottom: 1px solid black;
+}
