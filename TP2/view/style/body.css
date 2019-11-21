@@ -1,16 +1,58 @@
 .queries-container {
-    height: 300px;
-    background-color: blue;
+    height: 2613px;
+    /* background-color: blue; */
     display: none;
 }
 
 .myo-container {
-    height: 300px;
-    background-color: red;
+    /* background-color: red; */
     display: none;
 }
 
 .query-header {
-    height: 80px;
-    border-bottom: 1px solid black;
+    height: 200px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+.query-header:hover{
+    background-color: #ff8c1a;
+    cursor: pointer;
+}
+
+.inner{
+    display: inline-block;
+}
+
+.inner-number{
+    margin-right: 20px;
+    font-size: 130%;
+}
+
+.inner-query{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 150%;
+}
+
+.myo-input-container{
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.myo-label{
+    margin-bottom: 30px;
+    font-size: 140%;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.myo-input{
+    width: 80%;
+    height: 250px;
+    font-size: 200%;
+    padding: 20px;
 }
