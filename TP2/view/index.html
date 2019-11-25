@@ -32,13 +32,19 @@
         <div class="body-container">
             <div class="queries-container">
                 <div id="query1" class="query-header">
-                    <div class="inner inner-query"><div class="inner inner-number">1.</div>SELECT * FROM PLAYER LIMIT 5;</div>
+                    <div class="inner inner-query"><div class="inner inner-number">1.</div>
+                        SELECT TEAM_ID, TEAM_NAME FROM TEAMS;
+                        <br/><br/>Print the names and IDs of the teams participating in the Overwatch League™️.</div>
                 </div>
                 <div id="query2" class="query-header">
-                    <div class="inner inner-query"><div class="inner inner-number">2.</div>SELECT * FROM PLAYER LIMIT 10;</div>
+                    <div class="inner inner-query"><div class="inner inner-number">2.</div>
+                        SELECT TEAM_LOCATION FROM TEAMS;
+                        <br/><br/>Print the names of the cities the teams are from.</div>
                 </div>
                 <div id="query3" class="query-header">
-                    <div class="inner inner-query"><div class="inner inner-number">3.</div>SELECT * FROM PLAYER LIMIT 15;</div>
+                    <div class="inner inner-query"><div class="inner inner-number">3.</div>
+                        SELECT ANME, HANDLE FROM PLAYERS NATURAL JOIN TEAMS WHERE TRAM_ID=7696;
+                        <br/><br/>Print the names and handles of the players from the Vancouver Titans team.</div>
                 </div>
                 <div id="query4" class="query-header"></div>
                 <div id="query5" class="query-header"></div>
@@ -55,6 +61,7 @@
                 <div class="myo-input-container">
                     <div class="myo-label"><b>INSIRA SUA REQUISIÇÃO</b></div>
                     <textarea class="myo-input" name="myo-input"></textarea>
+                    <div><button class="button-submit">SUBMIT</button></div>
                 </div>
             </div>
         </div>
