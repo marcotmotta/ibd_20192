@@ -19,13 +19,13 @@ $(document).ready(function() {
     $(".queries-container").css("display", "block");
 
     $(".menu-queries").on('click', function(){
-        $(".queries-container").css("display", "block");
-        $(".myo-container").css("display", "none");
+        $(".queries-container").show(800);
+        $(".myo-container").hide(800);
     });
 
     $(".menu-queries-own").on('click', function(){
-        $(".myo-container").css("display", "block");
-        $(".queries-container").css("display", "none");
+        $(".myo-container").show();
+        $(".queries-container").hide(800);
         let height = $('body').height();
         $(".myo-container").css("height", (height - 80) + "px");
     });
