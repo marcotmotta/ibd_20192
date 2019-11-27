@@ -31,36 +31,487 @@
         </header>
         <div class="body-container">
             <div class="queries-container">
-                <div id="query1" class="query-header">
-                    <div class="inner inner-query"><div class="inner inner-number">1.</div>
-                        SELECT TEAM_ID, TEAM_NAME FROM TEAMS;
-                        <br/><br/>Print the names and IDs of the teams participating in the Overwatch League™️.</div>
+                <div class="query-container">
+                    <div id="query1" class="query-header">
+                        <div class="inner inner-query">
+                            <div class="inner inner-number">1.</div>
+                            Print the names and IDs of the teams participating in the Overwatch League™️.
+                            <br/><br/>
+                            SELECT TEAM_ID, TEAM_NAME FROM TEAMS;
+                        </div>
+                    </div>
+                    <div class="query-result result1">
+                        <div class="table-container">
+                            <table class="table">
+                                <tr>
+                                    <th>TEAM_ID</th>
+                                    <th>TEAM_NAME</th>
+                                </tr>
+                                <tr>
+                                    <td>4409</td>
+                                    <td>Seoul Dynasty</td>
+                                </tr>
+                                <tr>
+                                    <td>4403</td>
+                                    <td>New York Excelsior</td>
+                                </tr>
+                                <tr>
+                                    <td>4402</td>
+                                    <td>Boston Uprising</td>
+                                </tr>
+                                <tr>
+                                    <td>7696</td>
+                                    <td>Vancouver Titans</td>
+                                </tr>
+                                <tr>
+                                    <td>7698</td>
+                                    <td>Atlanta Reign</td>
+                                </tr>
+                                <tr>
+                                    <td>4524</td>
+                                    <td>Philadelphia Fusion</td>
+                                </tr>
+                                <tr>
+                                    <td>4404</td>
+                                    <td>San Francisco Shock</td>
+                                </tr>
+                                <tr>
+                                    <td>7695</td>
+                                    <td>Toronto Defiant</td>
+                                </tr>
+                                <tr>
+                                    <td>4408</td>
+                                    <td>Shanghai Dragons</td>
+                                </tr>
+                                <tr>
+                                    <td>7693</td>
+                                    <td>Hangzhou Spark</td>
+                                </tr>
+                                <tr>
+                                    <td>4410</td>
+                                    <td>London Spitfire</td>
+                                </tr>
+                                <tr>
+                                    <td>4406</td>
+                                    <td>Los Angeles Gladiators</td>
+                                </tr>
+                                <tr>
+                                    <td>4523</td>
+                                    <td>Dallas Fuel</td>
+                                </tr>
+                                <tr>
+                                    <td>4525</td>
+                                    <td>Houston Outlaws</td>
+                                </tr>
+                                <tr>
+                                    <td>4405</td>
+                                    <td>Los Angeles Valiant</td>
+                                </tr>
+                                <tr>
+                                    <td>4407</td>
+                                    <td>Florida Mayhem</td>
+                                </tr>
+                                <tr>
+                                    <td>7692</td>
+                                    <td>Chengdu Hunters</td>
+                                </tr>
+                                <tr>
+                                    <td>7699</td>
+                                    <td>Guangzhou Charge</td>
+                                </tr>
+                                <tr>
+                                    <td>7694</td>
+                                    <td>Paris Eternal</td>
+                                </tr>
+                                <tr>
+                                    <td>7697</td>
+                                    <td>Washington Justice</td>
+                                </tr>
+                            </table> 
+                        </div>
+                    </div>
                 </div>
-                <div id="query2" class="query-header">
-                    <div class="inner inner-query"><div class="inner inner-number">2.</div>
-                        SELECT TEAM_LOCATION FROM TEAMS;
-                        <br/><br/>Print the names of the cities the teams are from.</div>
+                <div class="query-container">
+                    <div id="query2" class="query-header">
+                        <div class="inner inner-query">
+                            <div class="inner inner-number">2.</div>
+                            Print the names of the cities the teams are from.
+                            <br/><br/>
+                            SELECT TEAM_LOCATION FROM TEAMS;
+                        </div>
+                    </div>
+                    <div class="query-result result2">
+                        <div class="table-container">
+                            <table class="table">
+                                <tr>
+                                    <th>TEAM_LOCATION</th>
+                                </tr>
+                                <tr>
+                                    <td>Seoul</td>
+                                </tr>
+                                <tr>
+                                    <td>New York City, NY</td>
+                                </tr>
+                                <tr>
+                                    <td>Boston, MA</td>
+                                </tr>
+                                <tr>
+                                    <td>Vancouver</td>
+                                </tr>
+                                <tr>
+                                    <td>Atlanta, GA</td>
+                                </tr>
+                                <tr>
+                                    <td>Philadelphia, PA</td>
+                                </tr>
+                                <tr>
+                                    <td>San Francisco, CA</td>
+                                </tr>
+                                <tr>
+                                    <td>Toronto</td>
+                                </tr>
+                                <tr>
+                                    <td>Shanghai</td>
+                                </tr>
+                                <tr>
+                                    <td>Hangzhou</td>
+                                </tr>
+                                <tr>
+                                    <td>London</td>
+                                </tr>
+                                <tr>
+                                    <td>Los Angeles, CA</td>
+                                </tr>
+                                <tr>
+                                    <td>Dallas, TX</td>
+                                </tr>
+                                <tr>
+                                    <td>Houston, TX</td>
+                                </tr>
+                                <tr>
+                                    <td>Los Angeles, CA</td>
+                                </tr>
+                                <tr>
+                                    <td>Florida</td>
+                                </tr>
+                                <tr>
+                                    <td>Chengdu</td>
+                                </tr>
+                                <tr>
+                                    <td>Guangzhou</td>
+                                </tr>
+                                <tr>
+                                    <td>Paris</td>
+                                </tr>
+                                <tr>
+                                    <td>Washington, DC</td>
+                                </tr>
+                            </table> 
+                        </div>
+                    </div>
                 </div>
-                <div id="query3" class="query-header">
-                    <div class="inner inner-query"><div class="inner inner-number">3.</div>
-                        SELECT ANME, HANDLE FROM PLAYERS NATURAL JOIN TEAMS WHERE TRAM_ID=7696;
-                        <br/><br/>Print the names and handles of the players from the Vancouver Titans team.</div>
+                <div class="query-container">
+                    <div id="query3" class="query-header">
+                        <div class="inner inner-query">
+                            <div class="inner inner-number">3.</div>
+                            Print the names and handles of the players from the Vancouver Titans team.
+                            <br/><br/>
+                            SELECT NAME, HANDLE FROM PLAYERS NATURAL JOIN TEAMS WHERE TRAM_ID=7696;
+                        </div>
+                    </div>
+                    <div class="query-result result3">
+                        <div class="table-container">
+                            <table class="table">
+                                <tr>
+                                    <th>NAME</th>
+                                    <th>HANDLE</th>
+                                </tr>
+                                <tr>
+                                    <td>Jang Hyun Hwang</td>
+                                    <td>TiZi</td>
+                                </tr>
+                                <tr>
+                                    <td>Dong-Eun Lee</td>
+                                    <td>Hooreg</td>
+                                </tr>
+                                <tr>
+                                    <td>Juseok Lee</td>
+                                    <td>Twilight</td>
+                                </tr>
+                                <tr>
+                                    <td>MinSoo Seo</td>
+                                    <td>SeoMinSoo</td>
+                                </tr>
+                                <tr>
+                                    <td>Sangbeom Park</td>
+                                    <td>BUMPER</td>
+                                </tr>
+                                <tr>
+                                    <td>Chunghee Lee</td>
+                                    <td>Stitch</td>
+                                </tr>
+                                <tr>
+                                    <td>Hyojong Kim</td>
+                                    <td>Haksal</td>
+                                </tr>
+                                <tr>
+                                    <td>Seong jun Kim</td>
+                                    <td>SLIME</td>
+                                </tr>
+                                <tr>
+                                    <td>Jun Keun Kim</td>
+                                    <td>RAPEL</td>
+                                </tr>
+                                <tr>
+                                    <td>HyunWoo Choi</td>
+                                    <td>JJANU</td>
+                                </tr>
+                            </table> 
+                        </div>
+                    </div>
                 </div>
-                <div id="query4" class="query-header"></div>
-                <div id="query5" class="query-header"></div>
-                <div id="query6" class="query-header"></div>
-                <div id="query7" class="query-header"></div>
-                <div id="query8" class="query-header"></div>
-                <div id="query9" class="query-header"></div>
-                <div id="query10" class="query-header"></div>
-                <div id="query11" class="query-header"></div>
-                <div id="query12" class="query-header"></div>
-                <div id="query13" class="query-header"></div>
+                <div class="query-container">
+                    <div id="query4" class="query-header">
+                        <div class="inner inner-query">
+                            <div class="inner inner-number">4.</div>
+                            Print the name of the team that won most matches in the league, and how many wins it had.
+                            <br/><br/>
+                            SELECT TEAM_NAME, count(TEAM_NAME) AS 'Number of Wins' FROM MATCHES JOIN TEAMS ON MATCHES.WINNER_ID=TEAMS.TEAM_ID GROUP BY TEAM_NAME ORDER BY count(TEAM_NAME) DESC LIMIT 1;
+                        </div>
+                    </div>
+                    <div class="query-result result4">
+                        <div class="table-container">
+                            <table class="table">
+                                <tr>
+                                    <th>TEAM_NAME</th>
+                                    <th>Number of Wins</th>
+                                </tr>
+                                <tr>
+                                    <td>San Francisco Shock</td>
+                                    <td>35</td>
+                                </tr>
+                            </table> 
+                        </div>
+                    </div>
+                </div>
+                <div class="query-container">
+                    <div id="query5" class="query-header">
+                        <div class="inner inner-query">
+                            <div class="inner inner-number">5.</div>
+                            How many wins does 'Washington Justice' have?
+                            <br/><br/>
+                            SELECT count(MATCH_ID) AS Wins FROM MATCHES INNER JOIN TEAMS ON MATCHES.WINNER_ID=TEAMS.TEAM_ID WHERE TEAM_NAME='Washington Justice';
+                        </div>
+                    </div>
+                    <div class="query-result result5">
+                        <div class="table-container">
+                            <table class="table">
+                                <tr>
+                                    <th>Wins</th>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                </tr>
+                            </table> 
+                        </div>
+                    </div>
+                </div>
+                <div class="query-container">
+                    <div id="query6" class="query-header">
+                        <div class="inner inner-query">
+                            <div class="inner inner-number">6.</div>
+                            Print the names and handles of the players that compose the winner team in the last match of the league, as well as the team's name.
+                            <br/><br/>
+                            SELECT NAME, HANDLE, TEAM_NAME FROM PLAYERS NATURAL JOIN TEAMS INNER JOIN MATCHES ON MATCHES.WINNER_ID=TEAMS.TEAM_ID ORDER BY TIMESTAMP DESC LIMIT (SELECT count(COMPETITOR_ID) FROM (SELECT * FROM PLAYERS WHERE TEAM_ID=(SELECT WINNER_ID FROM MATCHES ORDER BY TIMESTAMP DESC LIMIT 1)));
+                        </div>
+                    </div>
+                    <div class="query-result result6">
+                        <div class="table-container">
+                            <table class="table">
+                                <tr>
+                                    <th>NAME</th>
+                                    <th>HANDLE</th>
+                                    <th>TEAM</th>
+                                </tr>
+                                <tr>
+                                    <td>Hyobin Choi</td>
+                                    <td>Choihyobin</td>
+                                    <td>San Francisco Shock</td>
+                                </tr>
+                                <tr>
+                                    <td>Myeong Hwan Yoo</td>
+                                    <td>Smurf</td>
+                                    <td>San Francisco Shock</td>
+                                </tr>
+                                <tr>
+                                    <td>Grant Espe</td>
+                                    <td>moth</td>
+                                    <td>San Francisco Shock</td>
+                                </tr>
+                                <tr>
+                                    <td>Matthew DeLisi</td>
+                                    <td>super</td>
+                                    <td>San Francisco Shock</td>
+                                </tr>
+                                <tr>
+                                    <td>Jay Won</td>
+                                    <td>sinatraa</td>
+                                    <td>San Francisco Shock</td>
+                                </tr>
+                                <tr>
+                                    <td>DongJun Kim</td>
+                                    <td>Rascal</td>
+                                    <td>San Francisco Shock</td>
+                                </tr>
+                                <tr>
+                                    <td>NamJu Gwon</td>
+                                    <td>STRIKER</td>
+                                    <td>San Francisco Shock</td>
+                                </tr>
+                                <tr>
+                                    <td>Minho Park</td>
+                                    <td>Architect</td>
+                                    <td>San Francisco Shock</td>
+                                </tr>
+                                <tr>
+                                    <td>Minki Park</td>
+                                    <td>Viol2t</td>
+                                    <td>San Francisco Shock</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="query-container">
+                    <div id="query7" class="query-header">
+                        <div class="inner inner-query">
+                            <div class="inner inner-number">7.</div>
+                            Print the maps played by Dallas Fuel in their last match.
+                            <br/><br/>
+                            SELECT DISTINCT MAP FROM GAMES WHERE MATCH_ID=(SELECT MATCH_ID FROM MATCHES WHERE WINNER_ID=(SELECT TEAM_ID FROM TEAMS WHERE TEAM_NAME='Dallas Fuel') ORDER BY TIMESTAMP DESC);
+                        </div>
+                    </div>
+                    <div class="query-result result7">
+                        <div class="table-container">
+                            <table class="table">
+                                <tr>
+                                    <th>MAP</th>
+                                </tr>
+                                <tr>
+                                    <td>oasis</td>
+                                </tr>
+                                <tr>
+                                    <td>volskaya</td>
+                                </tr>
+                                <tr>
+                                    <td>eichenwalde</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="query-container">
+                    <div id="query8" class="query-header">
+                        <div class="inner inner-query">
+                            <div class="inner inner-number">8.</div>
+                            Print the name of the last team to win in 'eichenwalde'.
+                            <br/><br/>
+                            SELECT TEAM_NAME FROM TEAMS WHERE TEAM_ID = (SELECT WINNER_ID FROM MATCHES WHERE MATCH_ID = (SELECT MATCH_ID FORM GAMES WHERE MAP='eichenwalde'));
+                        </div>
+                    </div>
+                    <div class="query-result result8">
+                        <div class="table-container">
+                            <table class="table">
+                                <tr>
+                                    <th>TEAM_NAME</th>
+                                </tr>
+                                <tr>
+                                    <td>San Francisco Shock</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="query-container">
+                    <div id="query9" class="query-header">
+                        <div class="inner inner-query">
+                            <div class="inner inner-number">9.</div>
+                            How many games did 'San Francisco Shock' win?
+                            <br/><br/>
+                            SELECT count(GAME_ID) AS Wins FROM GAMES WHERE MATCH_ID IN (SELECT MATCH_ID FROM MATCHES WHERE WINNER_ID=(SELECT TEAM_ID FROM TEAMS WHERE TEAM_NAME='San Fransisco Shock'));
+                        </div>
+                    </div>
+                    <div class="query-result result9">
+                        <div class="table-container">
+                            <table class="table">
+                                <tr>
+                                    <th>Wins</th>
+                                </tr>
+                                <tr>
+                                    <td>144</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="query-container">
+                    <div id="query10" class="query-header">
+                        <div class="inner inner-query">
+                            <div class="inner inner-number">10.</div>
+                            How many games did 'San Francisco Shock' play?
+                            <br/><br/>
+                            SELECT count(GAME_ID) AS Games FROM GAMES WHERE MATCH_ID IN (SELECT MATCH_ID FROM MATCHES WHERE TEAM_ONE_ID = (SELECT TEAM_ID FROM TEAMS WHERE TEAM_NAME='San Fransisco Shock') OR TEAM_TWO_ID = (SELECT TEAM_ID FROM TEAMS WHERE TEAM_NAME='San Fransisco Shock'));
+                        </div>
+                    </div>
+                    <div class="query-result result10">
+                        <div class="table-container">
+                            <table class="table">
+                                <tr>
+                                    <th>Games</th>
+                                </tr>
+                                <tr>
+                                    <td>188</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="query-container">
+                    <div id="query11" class="query-header">
+                        <div class="inner inner-query">
+                            <div class="inner inner-number">11.</div>
+                            How many 'support' players play in each team?
+                            <br/><br/>
+                            SELECT TEAM_NAME, count(ROLE) AS 'Support Players' from teams natural join players where role='support' GROUP BY TEAM_NAME;
+                        </div>
+                    </div>
+                    <div class="query-result result11">
+                        <div class="img-container">
+                            <img class="img-chart" src="style/supports.bmp" alt="supports-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="query-container">
+                    <div id="query12" class="query-header">
+                        <div class="inner inner-query">
+                            <div class="inner inner-number">12.</div>
+                            How many times was each map played?
+                            <br/><br/>
+                            SELECT MAP, count(MAP) AS Played FROM GAMES WHERE MAP <> 'None' GROUP BY MAP
+                        </div>
+                    </div>
+                    <div class="query-result result12">
+                        <div class="img-container">
+                            <img class="img-chart" src="style/played.bmp" alt="played-img">
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <div class="myo-container">
                 <div class="myo-input-container">
-                    <div class="myo-label"><b>INSIRA SUA REQUISIÇÃO</b></div>
-                    <textarea class="myo-input" name="myo-input"></textarea>
+                    <div class="myo-label"><b>WRITE YOUR QUERY</b></div>
+                    <textarea class="myo-input" id="myo-input" name="myo-input"></textarea>
                     <div><button class="button-submit">SUBMIT</button></div>
                 </div>
             </div>

@@ -9,9 +9,13 @@
     display: none;
 }
 
-.query-header {
-    height: 200px;
+.query-container{
     border-bottom: 1px solid gray;
+    box-shadow: 0px 1px 1px grey;
+}
+
+.query-header {
+    height: 150px;
     text-align: center;
 }
 
@@ -26,7 +30,7 @@
 
 .inner-number{
     margin-right: 20px;
-    font-size: 130%;
+    font-size: 120%;
 }
 
 .inner-query{
@@ -34,7 +38,51 @@
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    font-size: 150%;
+    font-size: 110%;
+}
+
+.query-result{
+    border-top: 1px solid gray;
+}
+
+.table-container{
+    max-height: 350px;
+    width: 70%;
+    text-align: center;
+    overflow: auto;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 15px gray;
+}
+
+.table{
+    width: 100%;
+    margin: auto;
+    background-color: #bfbfbf;
+    border: 1px solid gray;
+}
+
+th{
+    padding: 5px;
+}
+
+td{
+    background-color: white;
+    padding: 5px;
+}
+
+.img-container{
+    text-align: center;
+    overflow: auto;
+    margin:auto;
+}
+
+.img-chart{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 15px gray;
+    border: 2px solid gray;
 }
 
 .myo-input-container{
