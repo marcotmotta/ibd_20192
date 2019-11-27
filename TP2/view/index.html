@@ -482,7 +482,7 @@
                             <div class="inner inner-number">11.</div>
                             How many 'support' players play in each team?
                             <br/><br/>
-                            SELECT TEAM_NAME, count(ROLE) AS 'Support Players' from teams natural join players where role='support' GROUP BY TEAM_NAME;
+                            SELECT TEAM_NAME, count(ROLE) AS 'Support Players' FROM TEAMS NATURAL JOIN PLAYERS WHERE ROLE='support' GROUP BY TEAM_NAME;
                         </div>
                     </div>
                     <div class="query-result result11">
