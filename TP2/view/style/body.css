@@ -1,5 +1,5 @@
 .queries-container {
-    height: 2613px;
+    height: 1812px;
     /* background-color: blue; */
     display: none;
 }
@@ -43,6 +43,7 @@
 
 .query-result{
     border-top: 1px solid gray;
+    display: none;
 }
 
 .table-container{
