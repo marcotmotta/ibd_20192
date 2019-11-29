@@ -1,2 +1,3 @@
-# ibd_20192
-Repo for college assignments on Introduction to Databases
+# Overwatch League Database
+
+Database and environment with real data from the Overwatch League.
